@@ -1,7 +1,6 @@
 # Copyright 2022 Adam Greig
 # Generate GPS C/A PRN for TT02 submission.
 
-import os
 import amaranth as am
 from amaranth.back import verilog
 from amaranth.sim import Simulator
@@ -65,7 +64,7 @@ def test():
     """
     Testcase for PRN generator.
 
-    Run using `pytest tinytapeout_prn.py`.
+    Run using `pytest gps_ca_prn.py`.
     """
     prn = PRN()
 

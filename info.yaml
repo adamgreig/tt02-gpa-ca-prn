@@ -21,8 +21,8 @@ documentation:
   how_to_test:  "With io_in[2:7] set to 2 to select PRN2, reset and then drive the clock; the output sequence on io_out[2] will start with 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1."
   external_hw:  "None"
   language:     "Amaranth"
-  doc_link:     "https://github.com/adamgreig/tt02-gpa-ca-prn"
-  clock_hz:     1
+  doc_link:     "https://github.com/adamgreig/tt02-gps-ca-prn"
+  clock_hz:     1000
   picture:      ""
   inputs:
     - clock
